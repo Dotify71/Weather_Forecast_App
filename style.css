@@ -144,6 +144,10 @@ header h1 {
     flex-shrink: 0;
 }
 
+.search-btn:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.8);
+}
+
 .search-btn:hover {
     transform: translateY(-2px) scale(1.05);
     background: #334155;
