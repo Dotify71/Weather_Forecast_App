@@ -42,6 +42,7 @@ body {
 }
 
 .weather-card {
+    transition: transform 0.3s ease;
     /* Enhanced Glassmorphism effect */
     background: rgba(255, 255, 255, 0.90);
     width: 100%;
@@ -59,6 +60,7 @@ body {
 /* Scaling up on tablet/desktop */
 @media (min-width: 480px) {
     .weather-card {
+    transition: transform 0.3s ease;
         max-width: 420px;
         padding: 2.8rem 2.5rem;
         border-radius: 32px;
@@ -144,6 +146,10 @@ header h1 {
     flex-shrink: 0;
 }
 
+.search-btn:focus {
+    outline: 2px solid rgba(255, 255, 255, 0.8);
+}
+
 .search-btn:hover {
     transform: translateY(-2px) scale(1.05);
     background: #334155;
@@ -173,6 +179,10 @@ header h1 {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.location-btn:active {
+    transform: scale(0.95);
 }
 
 .location-btn:hover {

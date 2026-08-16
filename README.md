@@ -10,7 +10,7 @@ I wanted to make something that wasn't just a boring list of temperatures, so I 
 *   **5-Day Forecast:** Plan ahead with a quick glance at the week's weather.
 *   **Smart Style Suggestions:** The app doesn't just tell you it's cold—it actively suggests whether you need to grab an umbrella, wear a heavy coat, or stick to a t-shirt.
 *   **GPS Location:** Don't feel like typing? Just hit "Use My Location" to instantly get your local forecast.
-*   **Dynamic UI:** The whole interface reacts to the weather, changing its colors for sunny, rainy, cloudy, and snowy days.
+*   **Dynamic UI:** The whole interface reacts to the weather, changing its colors for sunny, rainy, cloudy, and snowy days with sleek active animations.
 
 ##  Built With
 
